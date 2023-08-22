@@ -1,0 +1,19 @@
+.banner-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png ');
+  min-height: 50vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+}

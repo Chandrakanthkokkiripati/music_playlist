@@ -1,0 +1,41 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: 'roboto';
+}
+.image-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song-poster {
+  width: 140px;
+  height: 100px;
+  margin-right: 15px;
+}
+.song-name {
+  font-size: 20px;
+}
+.song-genre {
+  color: #3b82f6;
+  font-size: 15px;
+  font-weight: 500;
+}
+.duration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.duration {
+  font-size: 20px;
+  margin-right: 25px;
+}
+.delete-button {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+}

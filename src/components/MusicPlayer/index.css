@@ -1,0 +1,44 @@
+.songs-playlist-container {
+  background-color: #152850;
+  padding: 20px;
+  color: #ffffff;
+  min-height: 50vh;
+  font-family: 'roboto';
+}
+
+.songs-playlist-container h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 7px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  outline: none;
+}
+.songs-list-container {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.not-found-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
